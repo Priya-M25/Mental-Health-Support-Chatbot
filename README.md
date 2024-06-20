@@ -1,29 +1,39 @@
+
+
+
+
 # Mental Health Support Chatbot
 
-This project is a Mental Health Support Chatbot built using [Streamlit](https://streamlit.io/) and [OpenAI's GPT-3.5-turbo model](https://platform.openai.com/docs/models/gpt-3-5-turbo). It provides mental health support through a chat interface, offering sentiment analysis, mood tracking, and personalized coping strategies based on user input.
+This project is a Mental Health Support Chatbot built using [Streamlit](https://streamlit.io/) and powered by [OpenAI's GPT-3.5-turbo model](https://platform.openai.com/docs/models/gpt-3-5-turbo). The chatbot provides mental health support through a conversational interface, offering sentiment analysis, mood tracking, and personalized coping strategies based on user input.
 
 ## Features
 
-- **Chat Interface**: Interact with the chatbot in a user-friendly chat interface.
-- **Sentiment Analysis**: Analyze the sentiment of user messages and categorize them into different emotions.
-- **Mood Tracking**: Track the user's mood over time based on their messages.
-- **Coping Strategies**: Provide personalized coping strategies based on the user's emotional state.
-- **Session Summaries**: Summarize the conversation and provide insights at the end of each session.
+- **Chat Interface**: Engage with the chatbot in a user-friendly interface.
+- **Sentiment Analysis**: Analyze the sentiment of user messages and classify emotions.
+- **Mood Tracking**: Track user mood over time based on their interactions.
+- **Personalized Coping Strategies**: Offer tailored strategies based on the user's emotional state.
+- **Session Summaries**: Summarize the chat session and provide insights.
 - **Helpful Resources**: Provide links to immediate help resources for mental health support.
 
 ## Installation
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/Vikranth3140/Mental-Health-Support-Chatbot.git
-    cd Mental-Health-Support-Chatbot
+    git clone https://github.com/your_username/mental-health-support-chatbot.git
+    cd mental-health-support-chatbot
     ```
 
 2. **Create a virtual environment and activate it:**
-    ```bash
-    python -m venv env
-    .\env\Scripts\activate
-    ```
+    - On Windows:
+      ```bash
+      python -m venv env
+      .\env\Scripts\activate
+      ```
+    - On macOS/Linux:
+      ```bash
+      python3 -m venv env
+      source env/bin/activate
+      ```
 
 3. **Install the required packages:**
     ```bash
@@ -32,7 +42,7 @@ This project is a Mental Health Support Chatbot built using [Streamlit](https://
 
 4. **Set up your OpenAI API key:**
     - Obtain your OpenAI API key from [OpenAI](https://platform.openai.com/account/api-keys).
-    - Add your API key to the environment variable `OPENAI_API_KEY` or replace `'your_openai_api_key'` in the code with your actual API key.
+    - Set your API key as an environment variable `OPENAI_API_KEY` or replace `'your_openai_api_key'` in the code with your actual API key.
 
 ## Usage
 
@@ -43,18 +53,18 @@ This project is a Mental Health Support Chatbot built using [Streamlit](https://
 
 2. **Open the provided URL (typically `http://localhost:8501`) in your web browser.**
 
-3. **Start interacting with the chatbot:**
-    - Type your message in the input box and press "Send."
-    - The chatbot will respond to your message, analyze the sentiment, track your mood, and provide coping strategies as needed.
+3. **Interact with the chatbot:**
+    - Enter your message in the input box and click "Send."
+    - The chatbot will respond, analyze your sentiment, track your mood, and suggest coping strategies as appropriate.
 
 ## Project Structure
 
-- `app.py`: The main application file containing the Streamlit code and logic for the chatbot.
+- `app.py`: Main application file containing the Streamlit code and chatbot logic.
 - `requirements.txt`: List of required Python packages.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
@@ -68,3 +78,6 @@ If you need immediate help, please contact one of the following resources:
 - National Suicide Prevention Lifeline: 1-800-273-8255
 - Crisis Text Line: Text 'HELLO' to 741741
 - [More Resources](https://www.mentalhealth.gov/get-help/immediate-help)
+
+---
+
